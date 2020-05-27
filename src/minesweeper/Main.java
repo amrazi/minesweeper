@@ -16,7 +16,7 @@ public class Main {
 
         while (!userMinefield.gameEnd) {
             userMinefield.printMinefield();
-            System.out.println("Set/unset mines marks or claim a cell as free: ");
+            System.out.println("Set/unset mine marks or claim a cell as free: ");
             Scanner scannerMineMark = new Scanner(System.in);
             int userCol = scannerMineMark.nextInt() - 1; //fka userX
             int userRow = scannerMineMark.nextInt() - 1; //fka userY
